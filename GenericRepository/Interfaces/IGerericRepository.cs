@@ -10,18 +10,9 @@ namespace GenericRepository.Interfaces
     /// </summary>
     public interface IGerericRepository : IDisposable
     {
-        T Insert<T>(T item, bool saveNow)
-            where T : class;
-
-        T Update<T>(T item, bool saveNow)
-            where T : class;
-
-        T Delete<T>(T item, bool saveNow)
-            where T : class;
-
+        T Insert<T>(T item, bool saveNow = true) where T : class, new();
+        T Update<T>(T item, bool saveNow = true) where T : class, new();
+        T Delete<T>(T item, bool saveNow = true) where T : class, new();
         int Save();
-
-        IEnumerable<T> Select<T>()
-            where T : class;
     }
 }

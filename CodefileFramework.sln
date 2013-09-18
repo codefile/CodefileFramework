@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepository", "GenericRepository\GenericRepository.csproj", "{7A83B171-2D4C-4332-BDE8-2828100CE8FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommomObjects", "CommomObjects\CommomObjects.csproj", "{D49E8DE4-5743-424B-BD8C-481DFD2222B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A83B171-2D4C-4332-BDE8-2828100CE8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A83B171-2D4C-4332-BDE8-2828100CE8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A83B171-2D4C-4332-BDE8-2828100CE8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A83B171-2D4C-4332-BDE8-2828100CE8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49E8DE4-5743-424B-BD8C-481DFD2222B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49E8DE4-5743-424B-BD8C-481DFD2222B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49E8DE4-5743-424B-BD8C-481DFD2222B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49E8DE4-5743-424B-BD8C-481DFD2222B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
